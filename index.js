@@ -1,4 +1,4 @@
-import { TOKEN } from "./config.js";
+import TOKEN from "./config.js"
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.2/firebase-app.js";
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.7.2/firebase-analytics.js";
 import { getFirestore, addDoc, collection } from "https://www.gstatic.com/firebasejs/10.7.2/firebase-firestore.js";
